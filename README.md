@@ -4,12 +4,17 @@ The files in this repository were used to configure the network depicted below.
 
 ![Homework Week 13.drawio.png](https://github.com/Shishakli/UWA/blob/main/Diagrams/Homework%20Week%2013.drawio.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+- [DVWA Webserver playbook](https://github.com/Shishakli/UWA/blob/main/Ansible/DVWA.yml)
+- [ELK Stack playbook](https://github.com/Shishakli/UWA/blob/main/Ansible/ELK-install.yml)
+- [Filebeat Playbook](https://github.com/Shishakli/UWA/blob/main/Ansible/filebeat-playbook.yml)
+- [Filebeat Configuration](https://github.com/Shishakli/UWA/blob/main/Ansible/filebeat-config.yml)
+- [Metricbeat Playbook](https://github.com/Shishakli/UWA/blob/main/Ansible/metricbeat-playbook.yml)
+- [Metricbeat Configuration](https://github.com/Shishakli/UWA/blob/main/Ansible/metricbeat-config.yml)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
