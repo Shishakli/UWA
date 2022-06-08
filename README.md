@@ -99,12 +99,14 @@ SSH into the control node and follow the steps below:
 - Copy the elk_install.yml file to /etc/ansible/roles/elk_install.yml
 - Update the /etc/ansible/hosts file to include...
 
-`[webservers]
+```
+[webservers]
 10.10.0.7 ansible_python_interpreter=/usr/bin/python3
 10.10.0.8 ansible_python_interpreter=/usr/bin/python3
 
 [elk]
-10.20.0.4 ansible_python_interpreter=/usr/bin/python3`
+10.20.0.4 ansible_python_interpreter=/usr/bin/python3
+```
 
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
