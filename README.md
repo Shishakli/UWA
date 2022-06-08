@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Homework Week 13.drawio.png](https://github.com/Shishakli/UWA/blob/main/Diagrams/Homework%20Week%2013.drawio.png)
+![Homework Week 13.drawio.png](https://github.com/Shishakli/UWA/blob/main/Diagrams/Homework%20Week%2013.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
